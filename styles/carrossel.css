@@ -12,16 +12,14 @@
     width: 100%;
 }
 
-
 .swiper-button-prev,
 .swiper-button-next {
     display: none;
 }
 
-
 .swiper-pagination {
     position: initial;
-    margin: .5em 0;
+    margin: 0.5em 0;
 }
 
 .card {
@@ -75,4 +73,25 @@
 
 .botões__item {
     margin: 0 0.5em;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
 }
