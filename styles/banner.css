@@ -1,5 +1,5 @@
 .banner {
-    background: var(--azul-degrade);
+    background-color: purple;
     color: var(--branco);
     text-align: center;
     padding: 2.5em 2em;
